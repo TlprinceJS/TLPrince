@@ -1,0 +1,257 @@
+@charset 'utf-8';
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  position: relative;
+  font-size: 12px !important;
+}
+.full {
+  height: 100%;
+}
+#app {
+  height: 100%;
+  width: 100%;
+}
+.padding {
+  padding: 0 !important;
+}
+.start {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.start .cover_bg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  animation: scaling 20s linear infinite alternate ;
+  -moz-animation: scaling 20s linear infinite alternate;
+  -webkit-animation: scaling 20s linear infinite alternate;
+  -o-animation: scaling 20s linear infinite alternate;
+}
+.start .cover_bg img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.start .cover_bg .opacity {
+  opacity: 0;
+}
+@-webkit-keyframes scaling {
+  from {
+    -webkit-transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.2);
+  }
+}
+.start .head_portraits_border1 {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-left: -200px;
+}
+.start .head_portraits_border1 .head_portraits_border2 {
+  width: 60%;
+  height: 60%;
+  border-color: aquamarine;
+  border-left: transparent;
+  border-bottom: transparent;
+}
+.start .head_portraits_border1 .head_portraits_border2 .head_portraits_border3 {
+  width: 90%;
+  height: 90%;
+  border-color: #28c838;
+  border-right: transparent;
+  border-top: transparent;
+}
+.start .head_portraits_border1 .head_portraits_border2 .head_portraits_border3 .head_portraits_border4 {
+  width: 90%;
+  height: 90%;
+  border-color: #d5a21a;
+  border-top: transparent;
+}
+.start .head_portraits_border1 .iconfont {
+  font-size: 30px;
+}
+.start .head_portraits_border1 .github {
+  left: 28px;
+  top: 0;
+  background: #6db3d9;
+}
+.start .head_portraits_border1 .blogs {
+  left: -26px;
+  top: 300px;
+  background: #42c9a3;
+}
+.start .head_portraits_border1 .blogs a {
+  width: 100%;
+  height: 100%;
+}
+.start .head_portraits_border1 .blogs a .iconfont {
+  font-size: 40px;
+  vertical-align: middle;
+}
+.start .head_portraits_border1 .blogs a span {
+  vertical-align: middle;
+}
+.start .head_portraits_border1 .qq {
+  left: 342px;
+  top: 180px;
+  background: #eac251;
+}
+.start .head_portraits_border1 .github,
+.start .head_portraits_border1 .blogs,
+.start .head_portraits_border1 .qq {
+  position: absolute;
+  width: 120px;
+  height: 42px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+}
+.start .head_portraits_border1 .github a,
+.start .head_portraits_border1 .blogs a,
+.start .head_portraits_border1 .qq a {
+  text-decoration: none;
+}
+.start .head_portraits_border1 .iconfont {
+  vertical-align: middle;
+}
+.start .head_portraits_border1 span {
+  vertical-align: middle;
+}
+.start .head_portraits_border1,
+.start .head_portraits_border2,
+.start .head_portraits_border3,
+.start .head_portraits_border4 {
+  display: flex;
+  border: 3px solid #5151a4;
+  border-radius: 50%;
+}
+.start .head_portraits_border2,
+.start .head_portraits_border3,
+.start .head_portraits_border4 {
+  margin: auto;
+}
+.start .head_portraits_border2 {
+  animation: rotation 1s linear infinite;
+  -moz-animation: rotation 1s linear infinite;
+  -webkit-animation: rotation 1s linear infinite;
+  -o-animation: rotation 1s linear infinite;
+}
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+.start .head_portraits_wrap {
+  position: absolute;
+  left: 50%;
+  top: 178px;
+  width: 150px;
+  height: 150px;
+  margin-left: -75px;
+  border: 2px solid #ffaaff;
+  box-shadow: 0px 0px 5px 5px #fff;
+  background: url('../../images/bg_img/header.jpg') no-repeat -134px -54px;
+  border-radius: 50%;
+}
+.start .head_portraits_wrap a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.start .head_portraits_wrap:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
+.start .brief_wrap {
+  position: absolute;
+  top: 416px;
+  left: 50%;
+  width: 340px;
+  height: 150px;
+  margin-left: -170px;
+  text-align: center;
+  text-shadow: 5px 5px 2px #000;
+  color: #fff;
+}
+.start .brief_wrap .biref_des {
+  font-size: 30px;
+}
+.start .about_me {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.start .about_me .head_bg {
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: url('../../images/bg_img/header.jpg') no-repeat center;
+  color: #fff;
+}
+.start .about_me .about_nav {
+  width: 100%;
+  height: 65%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.start .about_me .about_nav li {
+  height: 20%;
+  padding-top: 10px;
+  text-align: center;
+}
+.start .about_me .about_nav li a {
+  font-size: 24px;
+}
+.start .about_me .about_nav li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.start .about_me .about_nav li:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+.start .about_me .fold_l {
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 10px auto;
+  font-size: 24px;
+  text-align: center;
+  line-height: 32px;
+  font-weight: bold;
+  background: #000;
+  border-radius: 50%;
+  color: #fff;
+}
+.start .about_me .fold_l:hover {
+  cursor: pointer;
+}
+.start .about_me .fold_r {
+  position: absolute;
+  top: 0;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 42px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0 20px 20px 0;
+  color: #fff;
+}

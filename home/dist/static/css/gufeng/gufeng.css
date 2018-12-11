@@ -1,0 +1,90 @@
+
+  .gufeng{
+    padding: 0 50px;
+  }
+  .gufeng_page{
+      background: url('../../images/bg_img/body.png') no-repeat center/cover;
+  }
+  .gufeng_page .row{
+    margin: 0 15px
+  }
+  .gufeng_page .row > div{
+    padding: 0 10px;
+    margin-bottom: 15px;
+  }
+  .gufeng_page .row > div .comment{
+  }
+  .gufeng_page .row > div p{
+    font-size: 17px;
+    margin: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .gufeng_page .row > div img{
+    border: 1px solid transparent;
+    border-radius: 10px;
+  }
+  .gufeng_page .row > div img:hover{
+    border: 1px solid pink;
+    box-shadow: 0px 0px 2px 2px pink
+  }
+  .gufeng_page .img-responsive{
+    width: 268px;
+    height: 188px;
+  }
+  .gufeng_page .create_list > div{
+    margin: 0 auto;
+  }
+  .gufeng_page .article_list .cover_img, .introduce{
+    float: left;
+  }
+  .gufeng_page .article_list .cover_img{
+    width: 90px;
+    height: 120px;
+  }
+  .gufeng_page .article_list .introduce{
+    width: 65%;
+    margin-left: 8px;
+  }
+  .gufeng_page .article_list .introduce span{
+    display: block;
+  }
+  .gufeng_page .article_list .introduce .description{
+    line-height:1.5em;
+    height:5.9em;
+    overflow:hidden;
+    font-size: 12px
+  }
+  .gufeng_page .article_list .introduce .description::after{
+    font-weight:bold;
+    position:absolute;
+    bottom:28px;
+    right:15px;
+
+  }
+  .gufeng_page .article_list .introduce .title{
+    font-size: 16px;
+    color: brown
+  }
+  .gufeng_page .article_list .introduce .author{
+    color: brown
+  }
+  .gufeng_page .hot_list .img-responsive{
+      height: 268px;
+      border-radius: 50%
+  }
+  .gufeng_page .hot_list p{
+    font-size: 15px;
+  }
+  @media screen and (max-width: 400px){
+    section{
+      padding: 0 0 !important;
+    }
+    .gufeng_page .row > div .comment{
+      margin-left: 0 !important;
+    }
+    .gufeng_page .img-responsive{
+        height: 145px !important;
+      }
+  }

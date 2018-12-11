@@ -1,0 +1,59 @@
+@charset 'utf-8';
+.padding {
+  height: 100%;
+  padding: 0 !important;
+  background-size: 100% 100%;
+}
+.padding .carousel_wrap {
+  max-height: 450px;
+  width: 100%;
+  padding: 0;
+}
+.padding .carousel_wrap .carousel {
+  height: 100%;
+}
+.padding .carousel_wrap .carousel .carousel-inner {
+  height: 100%;
+}
+.padding .carousel_wrap .carousel .carousel-inner img {
+  width: 100%;
+  max-height: 400px;
+}
+.padding .comicInfo_wrap {
+  margin: 0;
+  background: url("../../images/1532441692609.png") no-repeat center / cover;
+}
+.padding .comicInfo_wrap > div {
+  max-height: 380px;
+}
+.padding .comicInfo_wrap > div .thumbnail {
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+.padding .comicInfo_wrap > div .thumbnail:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+.padding .comicInfo_wrap .thumbnail .caption h3 {
+  height: 60px;
+  color: red;
+  text-shadow: 1px 1px #eeecee;
+  font-size: 18px;
+}
+.padding .comicInfo_wrap .thumbnail .caption .content {
+  height: 80px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #fff;
+}
+.padding .comicInfo_wrap .thumbnail .caption .detial {
+  margin: 10px 0;
+}
+.padding .comicInfo_wrap .thumbnail .caption .detial span {
+  font-size: 12px;
+  color: cornflowerblue;
+  margin-left: 20px;
+}
+.padding .comicInfo_wrap .thumbnail img {
+  height: 130px;
+}
